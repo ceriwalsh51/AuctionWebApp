@@ -26,7 +26,7 @@ app.use('/users', usersRouter);
 
 app.get('/auctions', auctions.findAll);
 app.get('/auctions/:id', auctions.findOne);
-app.get('/auctions/:id/dueDate', auctions.countDown);
+app.get('/auctions/:id/dateDue', auctions.countDown);
 
 app.post('/auctions', auctions.addAuction);
 

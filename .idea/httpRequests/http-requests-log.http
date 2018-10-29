@@ -1,3 +1,190 @@
+DELETE http://localhost:3000/auctions/5bd775400144441a14f5caa0
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090642.200.html
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090621.200.json
+
+###
+
+DELETE http://localhost:3000/auctions/5bd758192695f12ef038b064
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090615.200.html
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090600.200.json
+
+###
+
+DELETE http://localhost:3000/auctions/5bd775a1cfcd492340dbdfb9
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090553.200.html
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090533.200.json
+
+###
+
+POST http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090528.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090333.200.json
+
+###
+
+POST http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090329.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090159.200.json
+
+###
+
+POST http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090152.200.json
+
+###
+
+POST http://localhost:3000/auctions/5bd758192695f12ef038b064
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090145.404.html
+
+###
+
+GET http://localhost:3000/auctions/5bd758192695f12ef038b064
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T090014.200.json
+
+###
+
+DELETE http://localhost:3000/auctions/5bd757c22695f12ef038b063
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T085555.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd757c22695f12ef038b063/highestBId
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T085531.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd757c22695f12ef038b063/likes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T085518.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd757c22695f12ef038b063/likes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T085506.200.html
+
+###
+
 GET http://localhost:3000/auctions
 Accept: */*
 Cache-Control: no-cache
@@ -338,191 +525,6 @@ Content-Type: application/json
 { "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
 
 <> 2018-10-29T053107.200.json
-
-###
-
-POST http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T053059.200.json
-
-###
-
-POST http://localhost:3000
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T053036.404.html
-
-###
-
-POST http://localhost:3000
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00"}
-
-<> 2018-10-29T052934.404.html
-
-###
-
-POST http://localhost:3000
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T052856.400.html
-
-###
-
-POST http://localhost:3000
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "Noc 10, 2018, 09:00:00"}
-
-<> 2018-10-29T052819.400.html
-
-###
-
-POST http://localhost:3000/auctions/5bd7392115870ef28544ec53
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "Noc 10, 2018, 09:00:00"}
-
-<> 2018-10-29T052755.400.html
-
-###
-
-GET http://localhost:3000/auctions/5bd7392115870ef28544ec53
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T051641.200.json
-
-###
-
-GET http://localhost:3000/auctions/5bd7392115870ef28544ec53XYZ
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T051636.200.json
-
-###
-
-GET http://localhost:3000/auctions/5bd7392115870ef28544ec53
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T051526.200.json
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T051516.200.json
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T051512.200.json
-
-###
-
-GET http://localhost:3000/auctions/5b1d26cc572f1998d830a691
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T051457.200.json
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T051208.200.json
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T051048.500.json
-
-###
-
-GET http://localhost:3000/active
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-###
-
-GET http://localhost:3000/auctions/active
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T040932.200.json
-
-###
-
-GET http://localhost:3000/auctions/active
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id":0,"state":"active","name":"abandoned","highestBid":0,"dateDue":"01/11/18"}
-
-<> 2018-10-29T040852.200.json
 
 ###
 

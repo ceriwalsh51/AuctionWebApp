@@ -1,0 +1,30 @@
+[
+  {
+    "highestBid": 0,
+    "likes": 0,
+    "bids": 0,
+    "_id": "5bd758192695f12ef038b064",
+    "state": "active",
+    "name": "Family",
+    "__v": 0
+  },
+  {
+    "highestBid": 0,
+    "likes": 0,
+    "bids": 0,
+    "_id": "5bd775400144441a14f5caa0",
+    "state": "active",
+    "name": "Family",
+    "__v": 0
+  },
+  {
+    "highestBid": 0,
+    "likes": 0,
+    "bids": 0,
+    "_id": "5bd776188a7eae15102261db",
+    "state": "active",
+    "name": "Family",
+    "dateDue": "Dec 30, 2018, 15:00:00",
+    "__v": 0
+  }
+]
