@@ -1,0 +1,38 @@
+[
+  {
+    "likes": 2,
+    "bids": 0,
+    "_id": "5bd7392115870ef28544ec53",
+    "state": "active",
+    "name": "Sunset",
+    "highestBid": 20,
+    "dateDue": "Oct 31, 2018 12:00:00"
+  },
+  {
+    "likes": 5,
+    "bids": 0,
+    "_id": "5bd7397e15870ef28544ec54",
+    "state": "active",
+    "name": "Road",
+    "highestBid": 40,
+    "dateDue": "Aug 05, 2018 16:00:00"
+  },
+  {
+    "likes": 0,
+    "bids": 0,
+    "_id": "5bd739ce15870ef28544ec55",
+    "state": "active",
+    "name": "Countryside",
+    "highestBid": 15,
+    "dateDue": "Nov 10, 2018 09:00:00"
+  },
+  {
+    "likes": 1,
+    "bids": 0,
+    "_id": "5bd73a0a15870ef28544ec56",
+    "state": "active",
+    "name": "Animals",
+    "highestBid": 23,
+    "dateDue": "Dec 27, 2018 09:00:00"
+  }
+]
