@@ -9,3 +9,10 @@ counter is displayed showing how many days, minutes and seconds
 are left to bid on an auction.
 
 MongoDB with a mongoose schema is used to keep persistance within the app.
+
+References
+Learned from:
+https://ddrohan.github.io/wit-wad-2-2018/
+
+Counter for date: 
+Used to get formula for calculating days, hours and seconds. https://www.w3schools.com/howto/howto_js_countdown.asp
