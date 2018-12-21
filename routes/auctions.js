@@ -23,7 +23,7 @@ router.findAll = (req, res) => {
         if(err)
             res.send(err);
 
-        res.send(JSON.stringify(auctions, null, 5));
+        res.send(auctions, null, 5);
     });
 }
 
@@ -34,7 +34,7 @@ router.findOne = (req, res) => {
         if(err)
             res.send('AUCTION NOT FOUND!');
         else
-            res.send(JSON.stringify(auction, null, 5));
+            res.send(auction, null, 5);
     });
 }
 
@@ -66,7 +66,7 @@ router.incrementLikes = (req, res) => {
                 if(err)
                     res.send('LIKE NOT INCREMENTED!')
                 else
-                    res.send(JSON.stringify(auction, null, 5));
+                    res.send(auction, null, 5);
             });
         }
     });
@@ -92,7 +92,7 @@ router.addBid = (req, res) => {
                 if(err)
                     res.send('LIKE NOT INCREMENTED!')
                 else
-                    res.send(JSON.stringify(auction, null, 5));
+                    res.send(auction, null, 5);
             });
         }
     });

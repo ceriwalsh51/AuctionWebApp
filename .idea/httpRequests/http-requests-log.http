@@ -1,3 +1,452 @@
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095415.200.json
+
+###
+
+GET http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095409.200.json
+
+###
+
+DELETE http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095403.200.html
+
+###
+
+GET http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47/dateDue
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095351.200.html
+
+###
+
+GET http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47/dateDue
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095349.200.html
+
+###
+
+GET http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47/dateDue
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095342.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47/dateDue
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095334.404.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47/likes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095259.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47/highestBid
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095252.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47/highestBid
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095228.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47/likes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095219.200.html
+
+###
+
+GET http://localhost:3000/auctions/5bd77f9c7c4cd41820051b47
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095155.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095146.200.json
+
+###
+
+GET http://localhost:3000/auctions/5bd77b547c4cd41820051b46
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095136.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095115.200.json
+
+###
+
+POST http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095103.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T095051.200.json
+
+###
+
+GET http://localhost:3000/auctions/5bd77b547c4cd41820051b46/dateDue
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094828.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77b547c4cd41820051b46/dateDue
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094813.404.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77b547c4cd41820051b46/highestBid
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094743.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77b547c4cd41820051b46/highestBid
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094713.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77b547c4cd41820051b46/likes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094702.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd77b547c4cd41820051b46/likes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094656.200.html
+
+###
+
+GET http://localhost:3000/auctions/5bd77b547c4cd41820051b46
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094625.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094609.200.json
+
+###
+
+POST http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094604.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094504.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094216.200.json
+
+###
+
+GET http://localhost:3000/auctions/5bd77b547c4cd41820051b46/dateDue
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T094002.200.html
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T093227.200.json
+
+###
+
+GET http://localhost:3000/auctions/5bd776188a7eae15102261db
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T093223.200.json
+
+###
+
+DELETE http://localhost:3000/auctions/5bd776188a7eae15102261db
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T093216.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd776188a7eae15102261db/highestBid
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T093140.200.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd776188a7eae15102261db/bids
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T093128.404.html
+
+###
+
+PUT http://localhost:3000/auctions/5bd776188a7eae15102261db/likes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T093113.200.html
+
+###
+
+GET http://localhost:3000/auctions/5bd776188a7eae15102261db/dateDue
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T093043.200.html
+
+###
+
+GET http://localhost:3000/auctions/5bd776188a7eae15102261db
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T092806.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T092755.200.json
+
+###
+
+POST http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T092748.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+<> 2018-10-29T092728.200.json
+
+###
+
+GET http://localhost:3000/auctions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "state" : "active", "name" : "Family", "dateDue" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
+
+###
+
 DELETE http://localhost:3000/auctions/5bd775400144441a14f5caa0
 Accept: */*
 Cache-Control: no-cache
@@ -94,437 +543,6 @@ Content-Type: application/json
 { "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
 
 <> 2018-10-29T090329.200.json
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T090159.200.json
-
-###
-
-POST http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T090152.200.json
-
-###
-
-POST http://localhost:3000/auctions/5bd758192695f12ef038b064
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T090145.404.html
-
-###
-
-GET http://localhost:3000/auctions/5bd758192695f12ef038b064
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T090014.200.json
-
-###
-
-DELETE http://localhost:3000/auctions/5bd757c22695f12ef038b063
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T085555.200.html
-
-###
-
-PUT http://localhost:3000/auctions/5bd757c22695f12ef038b063/highestBId
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T085531.200.html
-
-###
-
-PUT http://localhost:3000/auctions/5bd757c22695f12ef038b063/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T085518.200.html
-
-###
-
-PUT http://localhost:3000/auctions/5bd757c22695f12ef038b063/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T085506.200.html
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T065734.200.json
-
-###
-
-POST http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "Family", "dueDate" : "Dec 30, 2018, 15:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T065729.200.json
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T065607.200.json
-
-###
-
-POST http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T065602.200.json
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T065554.200.json
-
-###
-
-POST http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-POST http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-POST http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-GET http://localhost:3000/auctions/5bd739ce15870ef28544ec55/dueDate
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T055129.200.html
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T055116.200.json
-
-###
-
-GET http://localhost:3000/auctions/5bd7397e15870ef28544ec54/dueDate
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T055107.200.html
-
-###
-
-GET http://localhost:3000/auctions/5bd7397e15870ef28544ec54/countDown
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T055054.404.html
-
-###
-
-GET http://localhost:3000/auctions/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T055033.200.json
-
-###
-
-GET http://localhost:3000/auctions/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T054713.200.json
-
-###
-
-GET http://localhost:3000/auctions/5bd7392115870ef28544ec53
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T054653.200.json
-
-###
-
-DELETE http://localhost:3000/auctions/5bd7392115870ef28544ec53
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T054643.200.html
-
-###
-
-PUT http://localhost:3000/auctions/5bd7392115870ef28544ec53/highestBid
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T054345.200.html
-
-###
-
-PUT http://localhost:3000/auctions/5bd7392115870ef28544ec53/highestBid
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T054341.200.html
-
-###
-
-PUT http://localhost:3000/auctions/5bd7392115870ef28544ec53/highestBid
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-PUT http://localhost:3000/auctions/5bd7392115870ef28544ec53/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T054025.200.html
-
-###
-
-PUT http://localhost:3000/auctions/5bd7392115870ef28544ec53/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T054017.200.html
-
-###
-
-PUT http://localhost:3000/auctions/5bd7392115870ef28544ec53/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T053914.200.json
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-GET http://localhost:3000/auctions/5bd739ce15870ef28544ec55/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-PUT http://localhost:3000/auctions/5bd739ce15870ef28544ec55/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-###
-
-GET http://localhost:3000/auctions/5bd739ce15870ef28544ec55/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T053830.404.html
-
-###
-
-GET http://localhost:3000/auctions/5bd739ce15870ef28544ec55/likes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T053241.404.html
-
-###
-
-GET http://localhost:3000/auctions/5bd739ce15870ef28544ec55
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T053221.200.json
-
-###
-
-GET http://localhost:3000/auctions/5bd739ce15870ef28544ec55/dueDate
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T053206.500.html
-
-###
-
-GET http://localhost:3000/auctions
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "state" : "active", "name" : "sunset", "dueDate" : "Noc 10, 2018, 09:00:00", "likes" : 0, "bids" : 0}
-
-<> 2018-10-29T053107.200.json
 
 ###
 
